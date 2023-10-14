@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd9f7969-7267-4fbf-894c-b9b8d01af4db" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/paddleclub/src/org/ulpgc/is1/model/Adress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paddleclub/src/org/ulpgc/is1/model/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paddleclub/src/org/ulpgc/is1/model/Member.java" afterDir="false" />
+    <list default="true" id="bd9f7969-7267-4fbf-894c-b9b8d01af4db" name="Changes" comment="TODO done(class NIF created)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +18,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="develop" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -44,7 +44,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "develop",
+    "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/Users/aadel/IdeaProjects/AgendaApp",
     "onboarding.tips.debug.path": "C:/Users/aadel/IdeaProjects/PaddleClubApp/paddleclub/src/Main.java"
   }
