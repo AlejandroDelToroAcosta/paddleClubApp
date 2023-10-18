@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd9f7969-7267-4fbf-894c-b9b8d01af4db" name="Changes" comment="TODO done(class NIF created)">
+      <change afterPath="$PROJECT_DIR$/paddleclub/src/org/ulpgc/is1/model/Court.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paddleclub/src/org/ulpgc/is1/model/CourtType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paddleclub/src/org/ulpgc/is1/model/Reservation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/paddleclub/src/org/ulpgc/is1/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/paddleclub/src/org/ulpgc/is1/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/paddleclub/src/org/ulpgc/is1/model/Extra.java" beforeDir="false" afterPath="$PROJECT_DIR$/paddleclub/src/org/ulpgc/is1/model/Extra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/paddleclub/src/org/ulpgc/is1/model/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/paddleclub/src/org/ulpgc/is1/model/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/paddleclub/src/org/ulpgc/is1/model/NIF.java" beforeDir="false" afterPath="$PROJECT_DIR$/paddleclub/src/org/ulpgc/is1/model/NIF.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +22,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -40,15 +48,15 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/aadel/IdeaProjects/AgendaApp",
-    "onboarding.tips.debug.path": "C:/Users/aadel/IdeaProjects/PaddleClubApp/paddleclub/src/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/aadel/is-libros&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/aadel/IdeaProjects/PaddleClubApp/paddleclub/src/Main.java&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -66,7 +74,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697134385433</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="TODO done(class NIF created)">
+      <option name="closed" value="true" />
+      <created>1697282249090</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1697282249090</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -82,6 +98,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="TODO done(class NIF created)" />
+    <option name="LAST_COMMIT_MESSAGE" value="TODO done(class NIF created)" />
   </component>
 </project>

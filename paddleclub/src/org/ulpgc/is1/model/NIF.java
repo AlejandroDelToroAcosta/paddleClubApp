@@ -1,7 +1,8 @@
 package org.ulpgc.is1.model;
+import java.util.regex.Pattern;
 
 public class NIF {
-    String number;
+    public String number;
 
     public NIF(String number) {
         this.number = number;
@@ -15,7 +16,15 @@ public class NIF {
         this.number = number;
     }
 
-    public void isValid(){
-         //TODO terminar metodo
-    }
+
+
+
+    public boolean isValid() {
+
+            String regex = "\\d{8}[A-Z]";
+            return Pattern.matches(regex, number);
+        }
+
+
+
 }

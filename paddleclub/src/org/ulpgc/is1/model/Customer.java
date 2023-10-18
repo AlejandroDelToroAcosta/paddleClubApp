@@ -3,11 +3,10 @@ package org.ulpgc.is1.model;
 public class Customer {
     private String name;
     private String surname;
-    private Nif nif;
-    //TODO crear clase nif
+    private NIF nif;
 
 
-    public Customer(String name, String surname, Nif nif) {
+    public Customer(String name, String surname, NIF nif) {
         this.name = name;
         this.surname = surname;
         this.nif = nif;
@@ -29,11 +28,11 @@ public class Customer {
         this.surname = surname;
     }
 
-    public Nif getNif() {
+    public NIF getNif() {
         return nif;
     }
 
-    public void setNif(Nif nif) {
+    public void setNif(NIF nif) {
         this.nif = nif;
     }
 }
