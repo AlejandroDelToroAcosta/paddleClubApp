@@ -1,12 +1,14 @@
 package org.ulpgc.is1.model;
 
+import java.util.ArrayList;
+
 public class Member extends Customer {
     private int points;
 
     private Adress adress;
 
-    public Member(String name, String surname, NIF nif, int points, Adress adress) {
-        super(name, surname, nif);
+    public Member(String name, String surname, NIF nif, int points, Adress adress, ArrayList<Reservation> reservations) {
+        super(name,surname,nif,reservations);
         this.points = points;
         this.adress = adress;
     }
