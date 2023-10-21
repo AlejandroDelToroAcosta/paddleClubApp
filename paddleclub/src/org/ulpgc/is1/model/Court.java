@@ -4,14 +4,13 @@ import java.util.ArrayList;
 public class Court {
     public String name;
     public int price;
-    public Court type;
+    public CourtType type;
     private ArrayList<Reservation> reservations;
 
 
-    public Court(String name, int price, Court type, ArrayList<Reservation> reservations) {
+    public Court(String name, int price, CourtType type, ArrayList<Reservation> reservations) {
         this.name = name;
         this.price = price;
-        this.type = type;
         this.type = type;
         this.reservations = reservations;
     }
@@ -32,19 +31,28 @@ public class Court {
         this.price = price;
     }
 
-    public Court getType() {
+    public CourtType getType() {
         return type;
     }
-    public void setType(Court type) {
+
+    public void setType(CourtType type) {
         this.type = type;
-
-
-    public ArrayList<Reservation> getReservations() {
-        return reservations;
     }
 
-    public void setReservations(ArrayList<Reservation> reservations) {
+    public ArrayList<Reservation> getReservations () {
+            return reservations;
+        }
+    public void setReservations (ArrayList < Reservation > reservations) {
         this.reservations = reservations;
+        }
+    @Override
+    public String toString() {
+        return "Court{" +
+                "name='" + name + '\'' +
+                ", price=" + price +
+                ", type=" + type +
+                ", reservations=" + reservations +
+                '}';
+    }
+    }
 
-
-}

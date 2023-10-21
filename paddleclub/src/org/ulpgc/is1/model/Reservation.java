@@ -39,7 +39,28 @@ public class Reservation {
     public void setDate(Date date) {
         this.date = date;
     }
+
+    public void setExtraArrayList(ArrayList<Extra> extraArrayList) {
+        this.extraArrayList = extraArrayList;
+    }
+
+    public void setCourt(Court court) {
+        this.court = court;
+    }
+
+    public void setCustomer(Customer customer) {
+        this.customer = customer;
+    }
+
     public int price(Extra extra, Court court){
         return extra.getPrice() + court.getPrice();
+    }
+    public String toString() {
+        return "Reservation{" +
+                "id=" + id +
+                ", date=" + date +
+                ", court=" + court +
+                ", customer=" + customer +
+                '}';
     }
 }

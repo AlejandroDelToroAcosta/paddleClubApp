@@ -19,11 +19,19 @@ public class NIF {
 
 
 
-    public boolean isValid() {
+    public boolean valid() {
+        String regex = "\\d{8}[A-Z]";
+        return Pattern.compile(regex).matcher(number).matches();
+    }
 
-            String regex = "\\d{8}[A-Z]";
-            return Pattern.matches(regex, number);
+    @Override
+    public String toString() {
+        if (valid()) {
+            return number;
+        } else {
+            return "XXXX";
         }
+    }
 
 
 

@@ -44,11 +44,12 @@ public class Customer {
                 "name='" + name + '\'' +
                 ", surname='" + surname + '\'' +
                 ", nif=" + nif.getNumber() +
-                '}';
+                '}'
+                ;
     }
 
-    public ArrayList<Reservation> getReservations() {
-        return reservations;
+    public Reservation getReservations(int index) {
+        return reservations.get(index);
     }
 
     public void setReservations(ArrayList<Reservation> reservations) {
