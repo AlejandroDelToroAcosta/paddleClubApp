@@ -1,9 +1,9 @@
 package org.ulpgc.is1.model;
 
 public class Customer {
-    private String name;
-    private String surname;
-    private NIF nif;
+    public String name;
+    public String surname;
+    public NIF nif;
 
 
     public Customer(String name, String surname, NIF nif) {

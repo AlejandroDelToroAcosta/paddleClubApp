@@ -1,16 +1,22 @@
 package org.ulpgc.is1.model;
 
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 public class Reservation {
     private static int NEXT_ID = 0;
-    private final int id;
+    public final int id;
 
-    Date date;
+    private ArrayList<Extra> extraArrayList;
+
+
+    public Date date;
 
     public Reservation(int id, Date date) {
         this.id = NEXT_ID++;
         this.date = date;
+        this.extraArrayList = new ArrayList<Extra>();
 
     }
 
