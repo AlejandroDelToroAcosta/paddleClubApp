@@ -6,12 +6,11 @@ public class Court {
     public Court type;
 
 
-    private CourtType courtType;
 
-    public Court(String name, int price, CourtType courtType) {
+    public Court(String name, int price, Court type) {
         this.name = name;
         this.price = price;
-        this.courtType = courtType;
+        this.type = type;
     }
 
     public String getName() {
@@ -30,11 +29,11 @@ public class Court {
         this.price = price;
     }
 
-    public CourtType getCourtType() {
-        return courtType;
+    public Court getType() {
+        return type;
     }
 
-    public void setCourtType(CourtType courtType) {
-        this.courtType = courtType;
+    public void setType(Court type) {
+        this.type = type;
     }
 }

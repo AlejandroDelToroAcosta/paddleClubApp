@@ -35,4 +35,12 @@ public class Customer {
     public void setNif(NIF nif) {
         this.nif = nif;
     }
+    @Override
+    public String toString() {
+        return "Customer{" +
+                "name='" + name + '\'' +
+                ", surname='" + surname + '\'' +
+                ", nif=" + nif.getNumber() +
+                '}';
+    }
 }
