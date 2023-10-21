@@ -7,17 +7,17 @@ import java.util.List;
 public class Reservation {
     private static int NEXT_ID = 0;
     public final int id;
-
     private ArrayList<Extra> extraArrayList;
-
-
     public Date date;
+    private Court court;
+    private Customer customer;
 
-    public Reservation(int id, Date date) {
+    public Reservation(int id, Date date, Court court, Customer customer) {
         this.id = NEXT_ID++;
         this.date = date;
         this.extraArrayList = new ArrayList<Extra>();
-
+        this.court = court;
+        this.customer = customer;
     }
 
     public static int getNextId() {

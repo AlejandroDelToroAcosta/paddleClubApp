@@ -1,17 +1,17 @@
 package org.ulpgc.is1.model;
+import java.util.ArrayList;
 
 public class Court {
     public String name;
     public int price;
     public Court type;
+    private ArrayList<Reservation> reservations;
 
-
-    private CourtType courtType;
-
-    public Court(String name, int price, CourtType courtType) {
+    public Court(String name, int price, Court type, ArrayList<Reservation> reservations) {
         this.name = name;
         this.price = price;
-        this.courtType = courtType;
+        this.type = type;
+        this.reservations = reservations;
     }
 
     public String getName() {
@@ -30,11 +30,18 @@ public class Court {
         this.price = price;
     }
 
-    public CourtType getCourtType() {
-        return courtType;
+    public Court getType() {
+        return type;
+    }
+    public void setType(Court type) {
+        this.type = type;
     }
 
-    public void setCourtType(CourtType courtType) {
-        this.courtType = courtType;
+    public ArrayList<Reservation> getReservations() {
+        return reservations;
+    }
+
+    public void setReservations(ArrayList<Reservation> reservations) {
+        this.reservations = reservations;
     }
 }
