@@ -4,7 +4,6 @@ import java.util.ArrayList;
 
 public class Member extends Customer {
     private int points;
-
     private Adress adress;
 
     public Member(String name, String surname, NIF nif, int points, Adress adress, ArrayList<Reservation> reservations) {

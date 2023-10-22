@@ -16,9 +16,6 @@ public class NIF {
         this.number = number;
     }
 
-
-
-
     public boolean valid() {
         String regex = "\\d{8}[A-Z]";
         return Pattern.compile(regex).matcher(number).matches();
@@ -32,7 +29,4 @@ public class NIF {
             return "XXXX";
         }
     }
-
-
-
 }

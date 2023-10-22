@@ -12,7 +12,7 @@ public class Customer {
         this.name = name;
         this.surname = surname;
         this.nif = nif;
-        this.reservations = reservations;
+        this.reservations = new ArrayList<Reservation>();
     }
 
     public String getName() {
@@ -48,8 +48,8 @@ public class Customer {
                 ;
     }
 
-    public Reservation getReservations(int index) {
-        return reservations.get(index);
+    public ArrayList<Reservation> getReservations() {
+        return reservations;
     }
 
     public void setReservations(ArrayList<Reservation> reservations) {

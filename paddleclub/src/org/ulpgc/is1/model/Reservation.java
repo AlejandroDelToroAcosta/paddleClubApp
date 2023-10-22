@@ -44,6 +44,18 @@ public class Reservation {
         this.extraArrayList = extraArrayList;
     }
 
+    public Court getCourt() {
+        return court;
+    }
+
+    public ArrayList<Extra> getExtraArrayList() {
+        return extraArrayList;
+    }
+
+    public Customer getCustomer() {
+        return customer;
+    }
+
     public void setCourt(Court court) {
         this.court = court;
     }
